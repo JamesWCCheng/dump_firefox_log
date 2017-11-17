@@ -9,7 +9,7 @@ set MOZ_LOG_FILE=%USERPROFILE%\Desktop\FirefoxLog\log.mozilla
 set /p UserInputPath= Please enter the installation folder of your firefox.(Press Enter to use default path c:\Program Files\Nightly)?
 set UserInputPath=^"%UserInputPath%^"
 
-IF %UserInputPath%.==. GOTO NOT_SPECIFY_INSTALLFOLDER
+IF %UserInputPath%=="" GOTO NOT_SPECIFY_INSTALLFOLDER
   cd %UserInputPath%  || GOTO ERROR
 GOTO RUNFIREFOX
 
