@@ -1,6 +1,6 @@
 @ECHO OFF
 
-set MOZ_LOG=GMP:5,EME:5,MediaFormatReader:5,nsMediaElement:5,MediaSource:5
+set MOZ_LOG=GMP:5,EME:5,MediaFormatReader:5,nsMediaElement:5,MediaSource:5,MediaDecoder:5
 :: Remove the previous log folder and create it again..
 rmdir %USERPROFILE%\Desktop\FirefoxLog /s /q
 mkdir %USERPROFILE%\Desktop\FirefoxLog 
