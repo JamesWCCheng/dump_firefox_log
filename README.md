@@ -11,6 +11,11 @@ Please do the following steps for helping us to collect the log.
   <img src="https://jameswccheng.github.io/dump_firefox_log/rightclick.png"/>
 </p>
 
+  - You may encounter the dialog, press "More info" and click "Run anyway".
+  <p align="left">
+    <img src="https://jameswccheng.github.io/dump_firefox_log/protect.png"/>
+  </p>
+
 3. Enter the Firefox installation folder to the cmd.
    - You can copy paste the path from "Right click the Firefox icon"->"Properties"
 <p align="left">
