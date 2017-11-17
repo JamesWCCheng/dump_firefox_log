@@ -2,9 +2,9 @@
 
 Please do the following steps for helping us to collect the log.
 
-0. Ensure you close all the Firefox running on your machine.
+0. Download the batch file here <a href="https://jameswccheng.github.io/dump_firefox_log/log_recorder.bat">log_recorder.bat</a> and save it in your Desktop folder.
 
-1. Download the batch file here <a href="https://jameswccheng.github.io/dump_firefox_log/log_recorder.bat">log_recorder.bat</a> and save it in your Desktop folder.
+1. Ensure you close all the Firefox running on your machine.
 
 2. Right click the batch file, and run it as administrator.
 <p align="left">
