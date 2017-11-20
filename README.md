@@ -2,14 +2,18 @@
 
 ## MacOS
 Download the shell script here <a href="https://jameswccheng.github.io/dump_firefox_log/firefox_log_mac.sh">firefox_log_mac.sh</a> and save it in your home directory.
-  - Run it in your Terminal(Command + T) and reporduce the issue.
+  - Make sure you close all the Firefox running on your machine(Command + Q to close the Firefox).
+  - Run it(sh firefox_log_mac.sh) in your Terminal(Command + T)
+  - Select and reporduce the issue.
   - Close the Firefox entirely(Command + Q).
   - The log file will be generate in the /Users/username/FirefoxLog/all.log
   - Upload all.log to Bugzilla.
 
 ## Linux
 Download the shell script here <a href="https://jameswccheng.github.io/dump_firefox_log/firefox_log_linux.sh">firefox_log_linux.sh</a> and save it in your home directory.
-  - Run it in your Terminal(Ctrl + Shift + T) and reporduce the issue.
+  - Make sure you close all the Firefox running on your machine(Command + Q to close the Firefox).
+  - Run it(sh firefox_log_linux.sh) in your Terminal(Ctrl + Shift + T).
+  - Enter Firefox path and reporduce the issue.
   - Close the Firefox entirely.
   - The log file will be generate in the /home/username/FirefoxLog/all.log
   - Upload all.log to Bugzilla
@@ -19,7 +23,7 @@ Please do the following steps for helping us to collect the log.
 
 0. Download the batch file here <a href="https://jameswccheng.github.io/dump_firefox_log/log_recorder.bat">log_recorder.bat</a> and save it in your Desktop folder.
 
-1. Ensure you close all the Firefox running on your machine.
+1. Make sure you close all the Firefox running on your machine.
 
 2. Right click the batch file, and run it as administrator.
 <p align="left">
